@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Environment files (do not commit secrets)
+*.env
+*.env.* 
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Build / coverage / temporary
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+tmp/
+temp/
+
+# Database / runtime files
+*.sqlite
+*.db
+
+# Misc
+.editorconfig
+.env.local

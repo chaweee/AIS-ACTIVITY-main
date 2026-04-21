@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  birthdate DATE,
+  program VARCHAR(255),
+  address VARCHAR(500),
+  studentStatus VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
